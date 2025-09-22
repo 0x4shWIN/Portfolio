@@ -8,6 +8,13 @@ order: 1
 A curated collection of certifications and advanced labs demonstrating my skills in cybersecurity and Red Team operations.
 
 ---
+## PortSwigger
+**Burp Suite Certified Practitioner**  
+![FullHouse](/assets/img/Cert/BSCP.png)
+
+---
+
+---
 ## INE
 **Junior Penetration Tester**  
 ![FullHouse](/assets/img/Cert/eJPT.png)
