@@ -6,9 +6,17 @@ order: 1
 
 # 🎖️ Certifications & Lab Achievements
 A curated collection of certifications and advanced labs demonstrating my skills in cybersecurity and Red Team operations.
+---
+## Hack The Box
+
+**Certified Penetration Testing Specialist**  
+![HTB CPTS](/assets/img/Cert/CPTS.jpeg)
+
+---
 
 ---
 ## PortSwigger
+
 **Burp Suite Certified Practitioner**  
 ![FullHouse](/assets/img/Cert/BSCP.png)
 
@@ -16,12 +24,14 @@ A curated collection of certifications and advanced labs demonstrating my skills
 
 ---
 ## INE
+
 **Junior Penetration Tester**  
 ![FullHouse](/assets/img/Cert/eJPT.png)
 
 ---
 
 ## Hack The Box
+
 **FullHouse – Mini Pro Lab**  
 ![FullHouse](/assets/img/Cert/FullHouse.jpg)
 
