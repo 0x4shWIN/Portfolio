@@ -1,4 +1,15 @@
-# The Evasion Attack Atlas
+---
+title: "The Evasion Attack Atlas"
+author: Ashwin
+date: 2026-03-29 00:05:00 +0800
+categories: [AI, Security]
+tags: [Adversarial-ML, AI-Security, Model-Security, AI-Red-Teaming, Evasion-Attacks, AI-Defense, Machine-Learning]
+media_subpath: /assets/img/Blog/atlas
+image:
+  path: atlas.jpg
+  alt: Adversarial Machine Learning  
+---
+
 
 # **A Complete Classification of Adversarial Evasion Techniques**
 
@@ -24,7 +35,7 @@ By understanding how models interpret this feature space, attackers can identify
 
 ## **The Evasion Attack Tree**
 
-![image.png](The%20Evasion%20Attack%20Atlas/image.png)
+![image.png](image.png)
 
 ## **The Six Families of Evasion Attacks**
 
@@ -62,7 +73,7 @@ perturbations. The gradient tells us which direction changes the model's
 
  **Formula Pattern:**
 
-$x_{adv} = x + \epsilon \cdot \text{sign}(\nabla_x L(\theta, x, y))$
+$$x_{adv} = x + \epsilon \cdot \text{sign}(\nabla_x L(\theta, x, y))$$
 
  **When to Use:** You have full access to the model (architecture, weights, gradients). This is the **fastest** family of attacks.
 
@@ -92,7 +103,7 @@ $x_{adv} = x + \epsilon \cdot \text{sign}(\nabla_x L(\theta, x, y))$
 
  **Formula Pattern:**
 
-$\min_{\delta} \|\delta\| \quad \text{subject to} \quad f(x + \delta) \ne y$
+$$\min_{\delta} \|\delta\| \quad \text{subject to} \quad f(x + \delta) \ne y$$
 
  **When to Use:** You need the **least detectable** perturbations. C&W attacks are famous for breaking defensive distillation (a defense technique).
 
