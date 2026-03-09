@@ -1,7 +1,7 @@
 ---
 title: "The Evasion Attack Atlas"
 author: Ashwin
-date: 2026-03-29 00:05:00 +0800
+date: 2026-03-09 00:05:00 +0800
 categories: [AI, Security]
 tags: [Adversarial-ML, AI-Security, Model-Security, AI-Red-Teaming, Evasion-Attacks, AI-Defense, Machine-Learning]
 media_subpath: /assets/img/Blog/atlas
@@ -9,6 +9,7 @@ image:
   path: atlas.jpg
   alt: Adversarial Machine Learning  
 ---
+
 
 
 # **A Complete Classification of Adversarial Evasion Techniques**
