@@ -7,7 +7,7 @@ tags: [Adversarial-ML, AI-Security, Model-Security, AI-Red-Teaming, Evasion-Atta
 media_subpath: /assets/img/Blog/atlas
 image:
   path: atlas.jpg
-  alt: Adversarial Machine Learning  
+  alt: Evasion Attack Atlas 
 ---
 
 
@@ -74,7 +74,7 @@ perturbations. The gradient tells us which direction changes the model's
 
  **Formula Pattern:**
 
-$$x_{adv} = x + \epsilon \cdot \text{sign}(\nabla_x L(\theta, x, y))$$
+$$ x_{adv} = x + \epsilon \cdot \text{sign}(\nabla_x L(\theta, x, y)) $$
 
  **When to Use:** You have full access to the model (architecture, weights, gradients). This is the **fastest** family of attacks.
 
@@ -104,7 +104,7 @@ $$x_{adv} = x + \epsilon \cdot \text{sign}(\nabla_x L(\theta, x, y))$$
 
  **Formula Pattern:**
 
-$$\min_{\delta} \|\delta\| \quad \text{subject to} \quad f(x + \delta) \ne y$$
+$$ \min_{\delta} \|\delta\| \quad \text{subject to} \quad f(x + \delta) \ne y $$
 
  **When to Use:** You need the **least detectable** perturbations. C&W attacks are famous for breaking defensive distillation (a defense technique).
 
