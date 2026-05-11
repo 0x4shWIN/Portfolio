@@ -8,6 +8,7 @@ media_subpath: /assets/img/Blog/atlas
 image:
   path: atlas.jpg
   alt: Evasion Attack Atlas 
+math: true
 ---
 
 
